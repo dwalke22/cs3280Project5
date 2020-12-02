@@ -1,0 +1,12 @@
+Collecting mockito
+  Downloading mockito-1.2.2.tar.gz (23 kB)
+Building wheels for collected packages: mockito
+  Building wheel for mockito (setup.py): started
+  Building wheel for mockito (setup.py): finished with status 'done'
+  Created wheel for mockito: filename=mockito-1.2.2-py3-none-any.whl size=29386 sha256=ac61ae866bd5710a741cfe0e36cde664cdcfbd8b2134f0247c370e0ef959d900
+  Stored in directory: /home/dwalke22/.cache/pip/wheels/00/5b/d2/177e69ba7fc46191165651812a44f421f1c698eb41d9d54f6a
+Successfully built mockito
+Installing collected packages: mockito
+Successfully installed mockito-1.2.2
+WARNING: You are using pip version 20.2.3; however, version 20.3 is available.
+You should consider upgrading via the '/home/dwalke22/Desktop/cs3280Project5/target/venv/build/cpython-3.6.9.final.0/bin/python3 -m pip install --upgrade pip' command.

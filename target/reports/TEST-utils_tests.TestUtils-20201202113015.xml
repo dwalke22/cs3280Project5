@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="utils_tests.py" name="utils_tests.TestUtils-20201202113015" skipped="0" tests="9" time="0.022" timestamp="2020-12-02T11:30:16">
+	<testcase classname="utils_tests.TestUtils" name="test_ipv4_subnet" time="0.002" timestamp="2020-12-02T11:30:15"/>
+	<testcase classname="utils_tests.TestUtils" name="test_nonvalid_ipv4" time="0.003" timestamp="2020-12-02T11:30:15"/>
+	<testcase classname="utils_tests.TestUtils" name="test_nonvalid_ipv6" time="0.004" timestamp="2020-12-02T11:30:15"/>
+	<testcase classname="utils_tests.TestUtils" name="test_proper_netmask_convers" time="0.002" timestamp="2020-12-02T11:30:15"/>
+	<testcase classname="utils_tests.TestUtils" name="test_valid_ipv4" time="0.002" timestamp="2020-12-02T11:30:15"/>
+	<testcase classname="utils_tests.TestUtils" name="test_valid_ipv6_mixed" time="0.002" timestamp="2020-12-02T11:30:16"/>
+	<testcase classname="utils_tests.TestUtils" name="test_valid_ipv6_stand" time="0.002" timestamp="2020-12-02T11:30:16"/>
+	<testcase classname="utils_tests.TestUtils" name="test_valid_net_ipv4" time="0.004" timestamp="2020-12-02T11:30:16"/>
+	<testcase classname="utils_tests.TestUtils" name="test_valid_net_number" time="0.002" timestamp="2020-12-02T11:30:16"/>
+</testsuite>
