@@ -4,6 +4,7 @@ Provides utility method for bitwises-Add
 """
 import re
 
+
 def verify_ipv6(ip_address):
     """Verifies that the ip is a valid IPv6 address"""
     ip_regex = re.compile(r"""^(?:[A-F0-9]{1,4}:){6}(?:[A-F0-9]{1,4}:
@@ -11,11 +12,13 @@ def verify_ipv6(ip_address):
             {3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9]))$""", re.X)
     return ip_regex.match(ip_address)
 
+
 def verify_ipv4(ip_address):
     """Verifies that the ip is a vaild IPv4 address"""
     ip_regex = re.compile(r"""^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}
             (?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$""", re.X)
     return ip_regex.match(ip_address)
+
 
 def verify_netmask(net_mask):
     """Verifies that the net mask is vaild"""
@@ -24,6 +27,7 @@ def verify_netmask(net_mask):
             (?:0|128|192|224|240|248|252|254|255)\.)
             (?:0|128|192|224|240|248|252|254|255)$""", re.X)
     return net_regex.search(net_mask)
+
 
 def convert_netmask(net_mask):
     """Converts a net mask to IPv4"""
@@ -38,6 +42,7 @@ def convert_netmask(net_mask):
         else:
             n_mask += str(int(bit, 2)) + "."
     return n_mask
+
 
 def calculate_ipv4_subnet(ip_address, net_mask):
     """Calculates the subnet of an IPv4 address"""
