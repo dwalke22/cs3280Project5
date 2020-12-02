@@ -5,8 +5,8 @@ from subprocess import call
 
 use_plugin("python.core")
 use_plugin("python.unittest")
-#use_plugin("python.flake8")
-#use_plugin("python.coverage")
+use_plugin("python.flake8")
+use_plugin("python.coverage")
 use_plugin("python.distutils")
 
 
@@ -15,9 +15,9 @@ default_task = "publish"
 
 target_dir = path.join('target', 'dist', 'app')
 
-#@init
-#def set_properties(project):
-#    project.build_depends_on('mockito')
+@init
+def set_properties(project):
+    project.build_depends_on('mockito')
 
 @init
 def normalize_target_dir(project):
